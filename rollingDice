@@ -1,0 +1,17 @@
+package javaProjects;
+
+import java.util.Random;
+
+public class RollingDice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random coolNumberBro = new Random();
+		int x = coolNumberBro.nextInt(6) + 1;
+		System.out.println("This is a Dice Simulator!");
+		System.out.println("You rolled a "+ x);
+		
+
+	}
+
+}
